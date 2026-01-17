@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "cataleg_musica.dtd">
+<cataleg_musica>
+    <llista_artistes>
+        <artista id="a1">
+            <nom>NF</nom>
+            <pais>USA</pais>
+            <genere>Hip Hop</genere>
+        </artista>
+        <artista id="a2">
+            <nom>Dadju</nom>
+            <pais>France</pais>
+            <genere>RandB</genere>
+        </artista>
+        <artista id="a3">
+            <nom>Marco Mengoni</nom>
+            <pais>Italy</pais>
+            <genere>Hip Hop</genere>
+        </artista>
+    </llista_artistes>
+    <llista_albumes>
+        <album id="al1">
+            <titol>Mansion</titol>
+            <any>2018</any>
+            <artistes>
+                <artista_ref ref="a1"/>
+            </artistes>
+        </album>
+        <album id="al2">
+            <titol>Gentleman 2.0</titol>
+            <any>2017</any>
+            <artistes>
+                <artista_ref ref="a2"/>
+            </artistes>
+        </album>
+        <album id="al3">
+            <titol>Le cose che non ho</titol>
+            <any>2015</any>
+            <artistes>
+                <artista_ref ref="a3"/>
+            </artistes>
+        </album>
+    </llista_albumes>
+    <llista_recomanacions_albumes>
+        <recomanacio ref="al1"/>
+        <recomanacio ref="al2"/>
+        <recomanacio ref="al3"/>
+    </llista_recomanacions_albumes>
+</cataleg_musica>
